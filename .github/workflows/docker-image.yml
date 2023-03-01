@@ -21,4 +21,4 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
     - name: Push
       run: |
-        demtag/otel-javaagent:1.23
+        docker push demtag/otel-javaagent:1.23
